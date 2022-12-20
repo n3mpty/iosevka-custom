@@ -10,6 +10,7 @@ export-glyph-names = true
 
     [buildPlans.firsevka.variants.design]
     f = "serifless"
+    g = "double-storey-open"
     m = "short-leg"
     zero = "slashed"
     paren = "large-contour"
@@ -23,6 +24,11 @@ export-glyph-names = true
     punctuation-dot = "round"
     lig-neq = "vertical-dotted"
     lig-equal-chain = "without-notch"
+
+[buildPlans.firsevka.weights.light]
+shape = 300
+menu = 300
+css = 300
 
 [buildPlans.firsevka.weights.regular]
 shape = 400
@@ -42,12 +48,12 @@ css = 700
 
 
 [buildPlans.firsevka.widths.normal]
-shape = 564 # default: 500, min: 434, max: 664
+shape = 590 # default: 500, min: 434, max: 664
 menu  = 5
 css   = "normal"
 
 [buildPlans.firsevka.widths.extended]
-shape = 620 # default: 576, min: 434, max: 664
+shape = 615 # default: 576, min: 434, max: 664
 menu  = 7
 css   = "expanded"
 
