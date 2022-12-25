@@ -9,56 +9,108 @@ export-glyph-names = true
   inherits = "ss05"
 
     [buildPlans.firsevka.variants.design]
-    f = "serifless"
+    capital-a = "straight-serifless"
+    capital-b = "standard-serifless"
+    capital-c = "unilateral-inward-serifed"
+    capital-d = "more-rounded-serifless"
+    capital-e = "serifless"
+    capital-f = "serifless"
+    capital-g = "toothless-corner-serifless-hooked"
+    capital-h = "serifless"
+    capital-i = "serifed"
+    capital-j = "serifed-both-sides"
+    capital-k = "symmetric-touching-serifless"
+    capital-l = "serifless"
+    capital-m = "slanted-sides-hanging"
+    capital-n = "standard"
+    capital-p = "closed"
+    capital-q = "curly-tailed"
+    capital-r = "straight"
+    capital-s = "serifless"
+    capital-t = "serifless"
+    capital-u = "toothless-rounded"
+    capital-v = "straight"
+    capital-w = "straight"
+    capital-x = "straight-serifless"
+    capital-y = "straight-serifless"
+    capital-z = "straight-serifless"
+    a = "double-storey-tailed"
+    b = "toothed"
+    d = "toothed-serifless"
+    e = "flat-crossbar"
+    f = "flat-hook"
     g = "double-storey-open"
+    j = "serifed"
+    k = "symmetric-touching-serifless"
+    l = "tailed-serifed"
     m = "short-leg"
+    n = "straight"
+    r = "corner-hooked-serifed"
+    t = "standard-short-neck"
+    v = "straight"
+    w = "straight"
+    x = "straight-serifless"
+    y = "curly-turn"
     zero = "slashed"
+    one = "base"
+    two = "straight-neck"
+    three = "two-arcs"
+    four = "semi-open"
+    five = "vertical-upper-left-bar"
+    six = "closed-contour"
+    seven = "straight-serifless"
+    eight = "crossing-asymmetric"
+    nine = "open-contour"
+    tilde = "low"
+    asterisk = "penta-low"
+    underscore = "low"
+    caret = "high"
     paren = "large-contour"
-    brace = "curly-flat-boundary"
+    brace = "curly"
     number-sign = "slanted"
     ampersand = "closed"
     dollar = "interrupted"
+    percent = "rings-continuous-slash"
     bar = "force-upright"
     lig-ltgteq = "flat"
+    ascii-single-quote = "straight"
+    ascii-grave = "straight"
     question = "smooth"
     punctuation-dot = "round"
     lig-neq = "vertical-dotted"
     lig-equal-chain = "without-notch"
 
+
 [buildPlans.firsevka.weights.light]
-shape = 300
+shape = 420
 menu = 300
 css = 300
 
 [buildPlans.firsevka.weights.regular]
-shape = 400
+shape = 500
 menu = 400
 css = 400
 
-[buildPlans.firsevka.weights.medium]
-shape = 500
-menu = 500
-css = 500
 
 [buildPlans.firsevka.weights.bold]
-shape = 700
+shape = 800
 menu = 700
 css = 700
 
 
 
 [buildPlans.firsevka.widths.normal]
-shape = 590 # default: 500, min: 434, max: 664
+shape = 586 # default: 500, min: 434, max: 664
 menu  = 5
 css   = "normal"
 
 [buildPlans.firsevka.widths.extended]
-shape = 615 # default: 576, min: 434, max: 664
+shape = 620 # default: 576, min: 434, max: 664
 menu  = 7
 css   = "expanded"
 
 [buildPlans.firsevka.slopes.italic]
-angle = 9.5
+angle = 9.6
 shape = "italic"
 menu = "italic"
 css = "italic"
@@ -71,9 +123,6 @@ css = "normal"
 
 [buildPlans.firsevka.metric-override]
 leading = 1300
-parenSize = 930
+parenSize = 945
 cap = 750
-xHeight = 580
-
-
-
+xHeight = 575
