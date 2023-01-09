@@ -6,7 +6,7 @@ no-cv-ss = false
 export-glyph-names = true
 
 [buildPlans.anosevka.variants]
-inherits = "ss02"
+inherits = "ss05"
 
 [buildPlans.anosevka.variants.design]
 capital-a = "straight-serifless"
@@ -44,16 +44,16 @@ g = "double-storey-open"
 h = "straight"
 i = "serifed"
 j = "serifed"
-k = "symmetric-connected-serifless"
-l = "serifed-flat-tailed"
+k = "symmetric-touching-serifless"
+l = "tailed-serifed"
 m = "normal"
 n = "straight"
 p = "eared"
 q = "straight"
-r = "corner-hooked-serifed"
+r = "top-serifed"
 s = "serifless"
-t = "standard"
-u = "toothless-rounded"
+t = "diagonal-tailed"
+u = "toothed"
 v = "straight"
 w = "straight"
 x = "straight-serifless"
@@ -91,7 +91,6 @@ punctuation-dot = "round"
 diacritic-dot = "round"
 lig-neq = "vertical-dotted"
 lig-equal-chain = "without-notch"
-
 
 [buildPlans.anosevka.weights.light]
 shape = 400
@@ -133,8 +132,9 @@ menu = "upright"
 css = "normal"
 
 [buildPlans.anosevka.metric-override]
-cap = 745
-ascender = 745
-xHeight = 560
+cap = 780
+ascender = 780
+xHeight = 600
 parenSize = 950
 leading = 1300
+sb = 65
